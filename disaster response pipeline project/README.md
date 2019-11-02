@@ -13,3 +13,14 @@
 
 3. Go to http://0.0.0.0:3001/
 
+
+### ETL internals
+The ETL process takes text as an input and processes the input text into words and then removes most common stopwords using the `nltk` stopwords dictionary
+
+### ML internals
+ML classifier script uses`Adaboost` a boosted tree algorithm as a classifier and run a grid search with 3 iteration of cross validation
+
+### App Screenshot
+![Hello](app_screenshot.png)
+
+
